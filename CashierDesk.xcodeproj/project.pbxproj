@@ -13,7 +13,6 @@
 		888EE9ED1AF117CA00FE464C /* PlanNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 888EE9EC1AF117CA00FE464C /* PlanNormal.m */; };
 		888EE9F01AF1185F00FE464C /* PlanDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 888EE9EF1AF1185F00FE464C /* PlanDiscount.m */; };
 		888EE9F31AF1188400FE464C /* PlanReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 888EE9F21AF1188400FE464C /* PlanReturn.m */; };
-		888EE9F61AF12A9800FE464C /* CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 888EE9F51AF12A9800FE464C /* CashFactory.m */; };
 		A0CD08F21AF0CFA2005D4F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD08F11AF0CFA2005D4F6B /* main.m */; };
 		A0CD08F51AF0CFA2005D4F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD08F41AF0CFA2005D4F6B /* AppDelegate.m */; };
 		A0CD08F81AF0CFA2005D4F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD08F71AF0CFA2005D4F6B /* ViewController.m */; };
@@ -51,8 +50,6 @@
 		888EE9EF1AF1185F00FE464C /* PlanDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanDiscount.m; sourceTree = "<group>"; };
 		888EE9F11AF1188400FE464C /* PlanReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanReturn.h; sourceTree = "<group>"; };
 		888EE9F21AF1188400FE464C /* PlanReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanReturn.m; sourceTree = "<group>"; };
-		888EE9F41AF12A9800FE464C /* CashFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashFactory.h; sourceTree = "<group>"; };
-		888EE9F51AF12A9800FE464C /* CashFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashFactory.m; sourceTree = "<group>"; };
 		A0CD08EC1AF0CFA2005D4F6B /* CashierDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashierDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CD08F01AF0CFA2005D4F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0CD08F11AF0CFA2005D4F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -189,8 +186,6 @@
 			children = (
 				888EE9E51AF10F7100FE464C /* CashContext.h */,
 				888EE9E61AF10F7100FE464C /* CashContext.m */,
-				888EE9F41AF12A9800FE464C /* CashFactory.h */,
-				888EE9F51AF12A9800FE464C /* CashFactory.m */,
 				A0CD091D1AF0DBA4005D4F6B /* CashSuper.h */,
 				A0CD091E1AF0DBA4005D4F6B /* CashSuper.m */,
 				A0CD09201AF0DC3A005D4F6B /* CashNormal.h */,
@@ -313,7 +308,6 @@
 				A0CD09171AF0D67D005D4F6B /* ChooseCalculatePatternController.m in Sources */,
 				A0CD08F81AF0CFA2005D4F6B /* ViewController.m in Sources */,
 				A0CD09281AF0DD1B005D4F6B /* CashReturn.m in Sources */,
-				888EE9F61AF12A9800FE464C /* CashFactory.m in Sources */,
 				888EE9E41AF102C500FE464C /* Plans.m in Sources */,
 				A0CD08F51AF0CFA2005D4F6B /* AppDelegate.m in Sources */,
 				A0CD09221AF0DC3A005D4F6B /* CashNormal.m in Sources */,
